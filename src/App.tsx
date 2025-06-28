@@ -95,7 +95,7 @@ function App() {
     <>
       <Box component="section" sx={{
         p: 2, 
-        mx: 91,
+        mx: 60,
         alignItems: 'center', border: '5px solid grey'
       }}>
         <h1>Calculator</h1>
