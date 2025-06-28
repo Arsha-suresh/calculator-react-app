@@ -61,7 +61,8 @@ function App() {
   }
   const operators = ['+', '-', 'X', '/', '*']
 
-  const InputChangeHandler = (e) => {
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const InputChangeHandler = (e:any) => {
     try {
       console.log(e);
       if (e.code === "Backspace") {
