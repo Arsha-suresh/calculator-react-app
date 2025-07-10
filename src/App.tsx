@@ -94,9 +94,8 @@ function App() {
   return (
     <>
       <Box component="section" sx={{
-        p: 2, 
-        mx: 60,
-        alignItems: 'center', border: '5px solid grey'
+        p: 2,
+        alignItems: 'center', 
       }}>
         <h1>Calculator</h1>
         <div>
